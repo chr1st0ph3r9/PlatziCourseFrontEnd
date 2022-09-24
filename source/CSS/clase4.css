@@ -1,0 +1,197 @@
+:root{
+
+    --very-light-pink:#C7C7C7;
+    --white:#FFFFFF;
+    --text-input-field:#F7F7F7;
+    --black:#000000;
+    --hospital-green:#ACD9B2;
+    --dark:#232830;
+
+}
+body{
+
+
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+
+}
+.login{
+width: 100%;
+height: 100vh;
+display: grid;
+place-items:center;
+}
+
+.formContainer{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    margin-top: 70px;
+
+}
+.logo{
+    width: 200px;
+    display: none;
+    margin-bottom: 48px;
+    justify-self: center;
+}
+#titlePass{
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    
+}
+#titleMyAccount{
+    font-size: medium;
+    font-weight: 900;
+    margin-bottom: 30px;
+
+}
+#subtitlePass{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: medium;
+    font-weight: 300;
+    color: var(--very-light-pink);
+    text-align: center;
+
+}
+.label{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{
+    border: none;
+    background-color: var(--text-input-field);
+    height: 25px;
+    border-radius: 8px;
+    font-size: small;
+    padding: 6px;
+    margin-bottom: 12px;
+    padding-left: 20px;
+ 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+}
+.divFormClase5 p{
+    font-weight: 400;
+    font-size: medium;
+    color: var(--very-light-pink);
+}
+
+#email{
+    font-size: small;
+    font-weight:500;
+   
+}
+
+#emailImg{
+    height: 130px;
+    width: 130px;
+    background-color: var(--text-input-field);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 25px;
+}
+#emailImg img{
+    width: 80px;
+}
+.primaryButton{
+    background-color: var(--hospital-green);
+    border: none;
+    color: var(--white);
+    border-radius: 8px;
+    height: 40px;
+    font-size:80%;
+    font-weight: bold;
+    font-size: medium;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+
+
+
+#resendText{
+    font-size: medium;
+    text-align: center;
+}
+#resendText span{
+    color: var(--very-light-pink);
+}
+#resendText a{
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+#forgotPass{
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    margin-top: 10px;
+} 
+.secondary-button{
+   
+    background-color:var(--white);
+    border-color: var(--hospital-green);
+    color: var(--hospital-green);
+    border-radius: 8px;
+    height: 50px;
+    font-size:80%;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-style: solid;
+   
+}
+.create-button{
+    background-color: var(--hospital-green);
+    border: none;
+    color: var(--white);
+
+}
+@media (max-width:640px){
+    .logo{
+        display:block;
+    }
+    #signup-button{
+        margin-top: 120px;
+    }
+    .create-button{
+        margin-top: 120px;
+    }
+    #formContainerClase4{
+       
+        height: 90%;
+        
+    }
+    
+    .form{
+        height: 100%;
+        justify-content: space-between;
+    }
+    
+    #creation-form{
+        height: 100%;
+        justify-content: space-between;
+
+    }
+    
+    
+} 

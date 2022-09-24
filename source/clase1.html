@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in page</title>
+    <link rel="stylesheet" href="./CSS/clase4.css">
+    <link rel="import" href="component.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Updock&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="login">
+        <div class="formContainer">
+            <img class="logo" src="../Resources/Platzi_YardSale_Logos/logo_yard_sale.svg" alt="logo">
+            <h1 id="titlePass">Create a new password</h1>
+            <p id="subtitlePass">Enter a new password for your account</p>
+
+            <form action="/" class="form">
+
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" placeholder="********" class="input input-password">
+
+                <label for="re-password" class="label">Re-enter password</label>
+                <input type="password" id="re-password" placeholder="********" class="input input-password">
+
+                <input type="submit" id="primaryButton" value="Confirm" class="primaryButton login-button">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

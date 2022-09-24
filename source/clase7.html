@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main Dropdown</title>
+    <link rel="stylesheet" href="./CSS/clase6.css">
+    <link rel="import" href="component.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Updock&display=swap" rel="stylesheet">
+
+    <style>
+
+        /*CSS*/
+        
+        
+        
+        
+        
+            :root{
+        
+        --very-light-pink:#C7C7C7;
+        --white:#FFFFFF;
+        --text-input-field:#F7F7F7;
+        --black:#000000;
+        --hospital-green:#ACD9B2;
+        --dark:#232830;
+        
+        }
+        body{
+        
+        
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        }
+
+        .dropdownContainer{
+            width: 120px;
+            height: auto;
+            background-color: var(--white);
+            border-radius: 6px;
+            border-color: var(--very-light-pink);
+            border-width: 1px;
+            border-style: solid;
+            display: inline-block;
+            padding: 20px;
+            
+            
+        }
+
+        .dropdownContainer ul{
+            text-align: end;
+            list-style: none;
+            padding: 0px;
+            margin: 0;
+            
+        }
+
+        .dropdownContainer ul li{
+
+            padding: 8px;
+        
+        }
+
+        .dropdownContainer ul li a{
+            text-decoration: none;
+        }
+
+        .dropdownContainer ul li:nth-child(1){
+            font-size:18px;
+            font-weight:bolder;
+            padding-top: 15px;
+            
+
+        }
+
+        .dropdownContainer ul li:nth-child(1) a{
+            color: var(--black);
+        }
+        .dropdownContainer ul li:nth-child(2){
+            font-size:18px;
+            font-weight: bolder;
+            padding-bottom: 35px;
+            padding-top: 20px;
+            
+
+        }
+        .dropdownContainer ul li:nth-child(2) a{
+            color: var(--black);
+        }
+
+        .dropdownContainer ul li:last-child{
+
+            border-top: 1px solid var(--very-light-pink);
+            
+            font-size: 15px;
+            font-weight: bold;
+            border-bottom: 0;
+            border-left: 0;
+            border-right: 0;
+            padding-top: 25px;
+            padding-bottom: 5px;
+
+        }
+
+        .dropdownContainer ul li:last-child a{
+            color: var(--hospital-green);
+        }
+
+
+
+
+
+
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="dropdownContainer">
+    
+        <ul>
+
+        
+            <li>
+
+        
+                <a href="" class="myOrdersLink">My orders</a>
+
+        
+            </li>
+        
+            <li>
+
+        
+                <a href="" class="myAccountLink">My account</a>
+
+        
+            </li>
+        
+            <li>
+
+        
+                <a href="" class="logOutLink">Sign out</a>
+
+        
+            </li>
+    
+    
+        </ul>
+    </div>
+    
+</body>
+</html>

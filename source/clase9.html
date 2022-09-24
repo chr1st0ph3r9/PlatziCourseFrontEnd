@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping page</title>
+    <link rel="import" href="component.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Updock&display=swap" rel="stylesheet">
+
+    <style>
+
+        :root{
+        
+        --very-light-pink:#C7C7C7;
+        --white:#FFFFFF;
+        --text-input-field:#F7F7F7;
+        --black:#000000;
+        --hospital-green:#ACD9B2;
+        --dark:#232830;
+        
+        }
+        body{
+        
+        
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        }
+        .mainContainer{
+            width: 400px;
+        }
+
+        .titleContainer{
+            margin-bottom: 45px;
+        }
+        .titleContainer h1{
+            font-size: 17px;
+            font-weight: 900;
+
+        }
+        .totalContainer{
+            background-color: var(--text-input-field);
+            border-radius: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .leftContainer{
+            margin-left: 30px;
+        }
+        .leftContainer p:nth-child(1){
+            font-size: 17px;
+            font-weight: 900;
+            margin-top: 16px;
+            margin-bottom: 4px;
+            
+        }
+        .leftContainer p:last-child{
+            font-size: 14px;
+            color: var(--dark);
+            font-weight: 400;
+            margin-top: 4px;
+            margin-bottom: 16px;
+
+        }
+
+        .rightContainer{
+            margin-right: 30px;
+        }
+        .rightContainer p{
+            font-weight: bold;
+            font-size: 900;
+            color: var(--dark);
+        }
+        .articlesContainer ul{
+            list-style: none;
+            padding: 0;
+            
+        }
+        .articlesContainer ul li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+            
+        }
+
+        .articlesContainer ul li img{
+            height: 75px;
+            width: 75px;
+            border-radius: 12px;
+            border-width: 1px;
+            border-color: var(--very-light-pink);
+        }
+        .articlesContainer ul li p{
+            margin-left: 20px;
+        }
+
+        .leftPList{
+            display: flex;
+            align-items: center;
+
+        }
+        .leftPList p{
+            font-size: 14px;
+            color: var(--dark);
+            font-weight: 400;
+
+        }
+
+        .rightPlist p{
+            font-weight: bold;
+            font-size: 900;
+            color: var(--dark);
+
+        }
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="mainContainer">
+
+        <div class="titleContainer">
+            <h1>My orders</h1>
+
+        </div>
+
+        <div class="totalContainer">
+            <div class="leftContainer">
+
+                <p>04.25.2022</p>
+                <p>6 articles</p>
+
+            </div>
+            <div class="rightContainer">
+
+                <p>$ 560.00</p>
+
+            </div>
+
+        </div>
+
+        <div class="articlesContainer">
+            <ul>
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="image of Smartwatch">
+
+                        <p>Smartwatch</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 120,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="image of Notebook">
+
+                        <p>Notebook</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 40,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="image of Smartwatch">
+
+                        <p>Smartwatch</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 120,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="image of Notebook">
+
+                        <p>Notebook</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 40,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="image of Smartwatch">
+
+                        <p>Smartwatch</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 120,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="image of Notebook">
+
+                        <p>Notebook</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 40,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="image of Smartwatch">
+
+                        <p>Smartwatch</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 120,00</p>
+
+                    </div>
+
+                </li>
+
+                <li>
+                    <div class="leftPList">
+                        
+                        <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="image of Notebook">
+
+                        <p>Notebook</p>
+
+                    </div>
+                    <div class="rightPlist">
+
+                        <p>$ 40,00</p>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

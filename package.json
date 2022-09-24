@@ -1,0 +1,17 @@
+{
+  "name": "frontendplatzipractico",
+  "version": "1.0.0",
+  "description": "Practical project for Platzi FrontEnd course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "Practical"
+  ],
+  "author": "Christopher Hayling",
+  "license": "MIT"
+}

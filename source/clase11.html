@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <link rel="import" href="component.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Updock&display=swap" rel="stylesheet">
+
+    <style>
+        :root{
+        
+        --very-light-pink:#C7C7C7;
+        --white:#FFFFFF;
+        --text-input-field:#F7F7F7;
+        --black:#000000;
+        --hospital-green:#ACD9B2;
+        --dark:#232830;
+        
+        }
+        body{
+        
+        
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        }
+        .navContainer{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 4px solid var(--text-input-field);
+
+        }
+        .leftSide{
+            display: flex;
+            align-items: center;
+            gap: 0px;
+
+        }
+        .leftSide img{
+            width: 120px;
+            height: 60px;
+            margin-left: 40px;
+            margin-right: 20px;
+        }
+        .leftSide a{
+            color: var(--very-light-pink);
+            height: 25px;
+            padding-top: 4px;
+            padding-right: 12px;
+            padding-bottom: 4px;
+            padding-left: 12px;
+            display: flex;
+            align-items: center;
+            border: 1px solid var(--white);
+            border-radius: 10px;
+        }
+        .leftSide a:hover{
+            
+            border: 1px solid var(--hospital-green);
+            
+            border-radius: 10px;
+            color: var(--hospital-green);
+        }
+
+
+        .rightSide{
+            display: flex;
+            align-items: center;
+            margin-right: 40px;
+            gap: 8px;
+        }
+        .rightSide p{
+            font-size: small;
+        }
+        .rightSide a{
+            height: 48px;
+        }
+        .arrowImg{
+            transform: rotate(90deg);
+            height: 10px;
+            margin-top: 5px;
+            margin-right: 8px;
+        }
+
+        .carNumber{
+           background-color: var(--hospital-green);
+           border-radius: 50%;
+        }
+
+
+        @media screen {
+            
+        }
+        a{
+            text-decoration: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navContainer">
+
+        <div class="leftSide">
+
+
+           
+            <img src="../Resources/Platzi_YardSale_Logos/logo_yard_sale.svg" alt="Logo">
+
+
+            <a href="">All</a>
+            <a href="">Clothes</a>
+            <a href="">Electronics</a>
+            <a href="">Furniture</a>
+            <a href="">Toys</a>
+            <a href="">Others</a>
+
+
+
+        </div>
+
+        <div class="rightSide">
+            <p>email@example.com </p>
+            <img class="arrowImg" src="../Resources/Platzi_YardSale_Icons/flechita.svg" alt="dropdown arrow">
+
+            <a href=""><img src="../Resources/Platzi_YardSale_Icons/bt_added_to_cart.svg" alt="car Link">
+            <div class="carNumber">4</div></a>
+        </div>
+
+    </nav>
+    
+</body>
+</html>

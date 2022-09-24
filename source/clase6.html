@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main website</title>
+    <link rel="stylesheet" href="./CSS/clase6.css">
+    <link rel="import" href="component.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Updock&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+<style>
+
+
+
+/*CSS*/
+
+
+
+
+
+    :root{
+
+--very-light-pink:#C7C7C7;
+--white:#FFFFFF;
+--text-input-field:#F7F7F7;
+--black:#000000;
+--hospital-green:#ACD9B2;
+--dark:#232830;
+
+}
+body{
+
+
+font-family: 'Quicksand', sans-serif;
+margin: 0;
+
+}
+.form-container{
+
+    display: grid;
+    grid-template-columns: repeat( auto-fill,250px);
+    gap: 30px;
+}
+.card-container{
+    width: 250px;
+}
+.card-container img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.infoDiv figure{
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+
+}
+.infoDiv figure img{
+    width: 50px;
+    height: 50px;
+
+    
+}
+.textDiv p{
+    margin-bottom: 0px;
+}
+.textDiv p:nth-child(1){
+    font-weight: bold;
+    margin-top: 0px;
+}
+.textDiv p:nth-child(2){
+    color:var(--very-light-pink);
+    font-size: small;
+    margin-top: 6px;
+}
+@media (max-width:640px) {
+    .form-container{
+
+display: grid;
+grid-template-columns: repeat( auto-fill,150px);
+gap: 20px;
+}
+.card-container{
+width: 150px;
+}
+.card-container img{
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 20px;
+}
+.infoDiv figure img{
+    width: 30px;
+    height: 30px;
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+    
+    <section class="mainContainer">
+    <div class="form-container" >
+
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1661534855546-705fbea6d3e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$49,00</p>
+            
+                    <p>Notebook</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+        <div class="card-container">
+            <img src="https://images.unsplash.com/photo-1659366100463-9e29a63adcc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="product image">
+            
+            <div class="infoDiv">
+
+                <div class="textDiv">
+            
+                    <p>$120,00</p>
+            
+                    <p>Smartwatch</p>
+        
+                </div>
+                
+                <figure>
+            
+                    <img src="../Resources/Platzi_YardSale_Icons/bt_add_to_cart.svg" alt="add to car icon">
+        
+                </figure>
+             </div>
+        </div>
+
+
+    </div>
+</section>
+</body>
+</html>
